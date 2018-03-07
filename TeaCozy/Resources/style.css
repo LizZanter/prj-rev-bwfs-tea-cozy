@@ -1,0 +1,141 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  max-height: 69px;
+  width: 1200px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  z-index: 10;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
+
+#main {
+  position: absolute;
+  top: 69px;
+}
+
+#doormat {
+  background-image: url("img-mission-background.jpg");
+  height: 700px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#month {
+  max-width: 1200px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+}
+
+#location1 {
+  background-image: url("img-locations-background.jpg");
+  height: 500px;
+  max-width: 1200px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+}
+
+#locations {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  margin-top: 15px;
+}
+
+#contact {
+  height: 200px;
+  position: static;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+.logo{
+    display: inline-block;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 650px;
+}
+
+.nav {
+  text-decoration: underline;
+}
+
+.headline {
+  background-color: black;
+  display: inline-block;
+  align-items: center;
+  width: 1200px;
+  flex-basis: 1200px;
+}
+
+.subtitle {
+  display: block;
+  align-items: center;
+}
+
+.type {
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 10px 10px;
+}
+
+img .type {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.place {
+  opacity: 1;
+  flex-basis: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  display: inline-block;
+  align-items: center;
+}
+
+.copy {
+  text-align: left;
+  margin-left: 20px;
+}
